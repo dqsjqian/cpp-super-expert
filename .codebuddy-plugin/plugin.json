@@ -1,0 +1,84 @@
+{
+  "name": "cpp-super-expert",
+  "version": "1.1.0",
+  "description": "Principal C/C++ technical consultant: full command of C89 through C23 and C++98 through C++26, C/C++ interop, architecture, concurrency and performance, Qt and major frameworks, plus deep support for the Aria series, the Mira networking library and SQLiteCpp.",
+  "author": {
+    "name": "dqsjqian",
+    "email": "dqsjqian@163.com"
+  },
+  "homepage": "https://github.com/dqsjqian",
+  "license": "MIT",
+  "keywords": [
+    "c",
+    "c23",
+    "cpp",
+    "cpp20",
+    "cpp23",
+    "cpp26",
+    "qt",
+    "aria",
+    "mira",
+    "networking",
+    "sqlitecpp",
+    "sqlite",
+    "boost",
+    "embedded",
+    "performance",
+    "architecture"
+  ],
+  "agents": [
+    "./agents/cpp-super-expert.md"
+  ],
+  "skills": [
+    "./skills/cpp-mastery"
+  ],
+  "expertType": "agent",
+  "agentName": "cpp-super-expert",
+  "displayName": {
+    "en": "C/C++ Super Expert",
+    "zh": "C/C++ 超级专家"
+  },
+  "profession": {
+    "en": "Principal C/C++ Technical Consultant",
+    "zh": "首席 C/C++ 技术顾问"
+  },
+  "displayDescription": {
+    "en": "Senior C/C++ expert covering C89 to C23 and C++98 to C++26, with deep hands-on support for the Aria series, the Mira networking library, SQLiteCpp, Qt and other major frameworks — architecture, concurrency, performance and debugging included.",
+    "zh": "精通 C/C++ 全标准演进，深谙 Aria 系列、Mira、SQLiteCpp，架构性能全能解答"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "梳理 C23 与 C++26 的核心新特性，并给老项目一份升级路线",
+    "en": "Walk me through the core features of C23 and C++26 and give a legacy project an upgrade path"
+  },
+  "plugin": "cpp-super-expert",
+  "tags": [
+    {
+      "en": "C/C++ Standards",
+      "zh": "C/C++ 标准"
+    },
+    {
+      "en": "Aria & Frameworks",
+      "zh": "Aria 与主流框架"
+    },
+    {
+      "en": "Architecture & Performance",
+      "zh": "架构与性能"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Walk me through the core features of C23 and C++26 and give a legacy project an upgrade path",
+      "zh": "梳理 C23 与 C++26 的核心新特性，并给老项目一份升级路线"
+    },
+    {
+      "en": "Design a C++23 cross-platform app with Aria and Mira: architecture and key code",
+      "zh": "用 Aria + Mira 设计一个 C++23 跨端应用，给出架构与关键代码"
+    },
+    {
+      "en": "What is the most robust way to do batch writes, transactions and multithreaded sharing with SQLiteCpp?",
+      "zh": "SQLiteCpp 的批量写入、事务和多线程共享怎么做最稳？"
+    }
+  ]
+}
